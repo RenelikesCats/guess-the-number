@@ -1,0 +1,92 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 246, 235);
+}
+
+.container {
+    background-color: rgba(170, 243, 155, 0.205);
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 40%;
+    text-align: center;
+    border: 3.5px solid rgba(0, 0, 0, 0.156);
+    border-radius: 20px;
+    height: 750px;
+
+}
+
+h1 {
+    font-family: Optima, serif;
+    font-weight: lighter;
+}
+
+p {
+    font-size: large;
+
+}
+
+#guessInput {
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#message {
+    font-size: x-large;
+    font-family: Helvetica, serif;
+    color: rgb(199, 24, 24);
+}
+
+
+.numberContainer {
+    background-color: gray;
+}
+
+.p {
+    font-size: 1.4em;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+#playAgain {
+    padding: 8px;
+    width:150px;
+    background-color: rgba(248, 149, 154, 0.959);
+    border: none;
+    font-size: 1.1em;
+    border-radius: 3px;
+    font-family: Helvetica, serif;
+}
+#playAgain:hover {
+    background-color: rgba(247, 40, 40, 0.868);
+    transition: 500ms;
+   
+}
+
+.btn { background-color: rgb(205, 218, 255);
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: rgba(102, 102, 169, 0.526);
+    font-family: Helvetica, serif;
+    
+
+}
+.btn:hover {
+    background-color:rgba(53, 111, 219, 0.712) ;
+    transition: 500ms;
+}
+
+.hid{
+    visibility: hidden;
+}
+
+#noor{
+    border-radius: 20px;
+   
+}
